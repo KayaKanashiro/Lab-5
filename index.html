@@ -12,10 +12,20 @@
         x-center:defined{
                 visibility: visible;
         }
+
+        x-pink{
+            visibility: hidden;
+        }
+
+        x-pink:defined{
+            visibility: visible;
+        }
     </style>
 </head>
 <body>
     <x-center>there will be custom elements</x-center>
+    <x-pink>Hi, I like to play guitar!</x-pink>
+    <footer>&copy; Kaya Kanashiro <x-year></x-year></footer>
     <script src="custom_element.js"></script>
 </body>
 </html>
